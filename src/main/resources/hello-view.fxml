@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="244.0" layoutY="238.0" mnemonicParsing="false" onAction="#onENClick" text="EN" />
+      <Button layoutX="245.0" layoutY="271.0" mnemonicParsing="false" onAction="#onFAClick" text="FA" />
+      <Button layoutX="246.0" layoutY="303.0" mnemonicParsing="false" onAction="#onFRClick" text="FR" />
+      <Button layoutX="246.0" layoutY="337.0" mnemonicParsing="false" onAction="#onJAClick" text="JA" />
+      <TextField fx:id="tfDistance" layoutX="184.0" layoutY="57.0" />
+      <TextField fx:id="tfFuel" layoutX="184.0" layoutY="125.0" />
+      <Label fx:id="lblDistance" layoutX="229.0" layoutY="28.0" text="lblDistance" />
+      <Label fx:id="lblFuel" layoutX="242.0" layoutY="99.0" text="lblFuel" />
+      <Label fx:id="lblResult" layoutX="235.0" layoutY="172.0" text="lblResult" />
+      <Button fx:id="btnCalculate" layoutX="232.0" layoutY="200.0" mnemonicParsing="false" onAction="#onCalculateClick" text="btnCalculate" />
+   </children>
+</AnchorPane>
